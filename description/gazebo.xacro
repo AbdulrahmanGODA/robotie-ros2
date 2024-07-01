@@ -22,7 +22,7 @@
     </gazebo>
     <gazebo reference="caster_wheel">
         <material>
-            Gazebo/White
+            Gazebo/Black
         </material>
         <mu1>0.02</mu1>
         <mu2>0.02</mu2>
