@@ -137,54 +137,54 @@
         </collision>
     </link>
 
-    <!--HOKUYO_LASER-->
+    <!--LIDAR-->
 
-    <joint name="hokuyo_base_joint" type="fixed">
+    <joint name="lidar_base_joint" type="fixed">
         <origin xyz="${chassis_length/2} 0.0 ${chassis_height}" rpy="0.0 0.0 0.0"/>
         <parent link="chassis"/>
-        <child link="hokuyo_base_link"/>
+        <child link="lidar_base_link"/>
     </joint>
 
-    <link name="hokuyo_base_link">
-        <xacro:inertial_box mass="${hokuyo_mass}" x="${hokuyo_base}" y="${hokuyo_base}" z="${hokuyo_base}">
+    <link name="lidar_base_link">
+        <xacro:inertial_box mass="${lidar_mass}" x="${lidar_base}" y="${lidar_base}" z="${lidar_base}">
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
         </xacro:inertial_box>
         <visual>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <box size="${hokuyo_base} ${hokuyo_base} ${hokuyo_base/2}"/>
+                <box size="${lidar_base} ${lidar_base} ${lidar_base/2}"/>
             </geometry>
             <material name="black"/>
         </visual>
         <collision>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <box size="${hokuyo_base} ${hokuyo_base} ${hokuyo_base/2}"/>
+                <box size="${lidar_base} ${lidar_base} ${lidar_base/2}"/>
             </geometry>
         </collision>
     </link>
 
-    <joint name="hokuyo_joint" type="fixed">
-        <origin xyz="0.0 0.0 ${hokuyo_base/4}" rpy="0.0 0.0 0.0"/>
-        <parent link="hokuyo_base_link"/>
-        <child link="hokuyo_link"/>
+    <joint name="lidar_joint" type="fixed">
+        <origin xyz="0.0 0.0 ${lidar_base/4}" rpy="0.0 0.0 0.0"/>
+        <parent link="lidar_base_link"/>
+        <child link="lidar_link"/>
     </joint>
 
-    <link name="hokuyo_link">
-        <xacro:inertial_cylinder mass="${hokuyo_mass}" length="${hokuyo_base}" radius="${hokuyo_radius}">
+    <link name="lidar_link">
+        <xacro:inertial_cylinder mass="${lidar_mass}" length="${lidar_base}" radius="${lidar_radius}">
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
         <visual>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <cylinder radius="${hokuyo_radius}" length="${hokuyo_base}"/>
+                <cylinder radius="${lidar_radius}" length="${lidar_base}"/>
             </geometry>
             <material name="black"/>
         </visual>
         <collision>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <cylinder radius="${hokuyo_radius}" length="${hokuyo_base}"/>
+                <cylinder radius="${lidar_radius}" length="${lidar_base}"/>
             </geometry>
         </collision>
     </link>

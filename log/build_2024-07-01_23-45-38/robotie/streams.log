@@ -1,0 +1,35 @@
+[0.205s] Invoking command in '/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/goda/tutorials_ws/05_ws/src/robotie/build/robotie -- -j8 -l8
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target vel_publisher[0m
+[0.339s] [ 50%] [32mBuilding CXX object CMakeFiles/vel_publisher.dir/src/vel_publisher.cpp.o[0m
+[12.684s] [100%] [32m[1mLinking CXX executable vel_publisher[0m
+[13.354s] [100%] Built target vel_publisher
+[13.393s] Invoked command in '/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/goda/tutorials_ws/05_ws/src/robotie/build/robotie -- -j8 -l8
+[13.516s] Invoking command in '/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/goda/tutorials_ws/05_ws/src/robotie/build/robotie
+[13.540s] -- Install configuration: ""
+[13.541s] -- Execute custom install script
+[13.542s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/lib/robotie/vel_publisher
+[13.543s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie//launch/gazebo_sim.launch.py
+[13.544s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie//launch/rsp.launch.py
+[13.545s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie//description/gazebo.xacro
+[13.546s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie//description/inertia.xacro
+[13.546s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie//description/properties.xacro
+[13.547s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie//description/robotie.urdf
+[13.547s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie//description/robotie.xacro
+[13.548s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie//description/ros2_control.xacro
+[13.548s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie//config/controllers.yaml
+[13.549s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/ament_index/resource_index/package_run_dependencies/robotie
+[13.550s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/ament_index/resource_index/parent_prefix_path/robotie
+[13.551s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie/environment/ament_prefix_path.sh
+[13.551s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie/environment/ament_prefix_path.dsv
+[13.552s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie/environment/path.sh
+[13.552s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie/environment/path.dsv
+[13.553s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie/local_setup.bash
+[13.554s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie/local_setup.sh
+[13.554s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie/local_setup.zsh
+[13.555s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie/local_setup.dsv
+[13.555s] -- Symlinking: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie/package.dsv
+[13.584s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/ament_index/resource_index/packages/robotie
+[13.585s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie/cmake/robotieConfig.cmake
+[13.585s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie/cmake/robotieConfig-version.cmake
+[13.586s] -- Up-to-date symlink: /home/goda/tutorials_ws/05_ws/src/robotie/install/robotie/share/robotie/package.xml
+[13.592s] Invoked command in '/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/goda/tutorials_ws/05_ws/src/robotie/build/robotie

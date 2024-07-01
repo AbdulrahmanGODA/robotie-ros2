@@ -1,0 +1,1 @@
+/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie/ament_cmake_core/robotieConfig-version.cmake

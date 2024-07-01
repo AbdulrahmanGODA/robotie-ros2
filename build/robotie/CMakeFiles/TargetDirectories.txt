@@ -1,0 +1,10 @@
+/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie/CMakeFiles/uninstall.dir
+/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie/CMakeFiles/robotie_uninstall.dir
+/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie/CMakeFiles/vel_publisher.dir
+/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie/CMakeFiles/test.dir
+/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie/CMakeFiles/edit_cache.dir
+/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie/CMakeFiles/rebuild_cache.dir
+/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie/CMakeFiles/list_install_components.dir
+/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie/CMakeFiles/install.dir
+/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie/CMakeFiles/install/local.dir
+/home/goda/tutorials_ws/05_ws/src/robotie/build/robotie/CMakeFiles/install/strip.dir
