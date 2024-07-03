@@ -63,6 +63,8 @@
         </sensor>
     </gazebo>
 
+    <!--LIDAR-->
+
     <gazebo reference="lidar_base_link">
         <material>
             Gazebo/Black

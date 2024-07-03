@@ -20,12 +20,12 @@ private:
     auto message = std::make_shared<geometry_msgs::msg::Twist>();
 
     // Set the linear and angular velocities for the robot
-    message->linear.x = 2.0;
+    message->linear.x = 0.5;
     message->linear.y = 0.0;
     message->linear.z = 0.0;
     message->angular.x = 0.0;
     message->angular.y = 0.0;
-    message->angular.z = 1.8;
+    message->angular.z = 0.5;
 
     publisher_->publish(*message);
   }
