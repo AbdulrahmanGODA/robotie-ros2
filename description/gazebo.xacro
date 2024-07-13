@@ -6,27 +6,43 @@
             Gazebo/Red  
         </material>
     </gazebo>
-    <gazebo reference="left_wheel">
+    <gazebo reference="left_wheel_back">
         <material>
             Gazebo/Black
         </material>
         <mu1>0.2</mu1>
         <mu2>0.2</mu2>
     </gazebo>
-    <gazebo reference="right_wheel">
+    <gazebo reference="right_wheel_back">
         <material>
             Gazebo/Black
         </material>
         <mu1>0.2</mu1>
         <mu2>0.2</mu2>
     </gazebo>
-    <gazebo reference="caster_wheel">
+
+    <gazebo reference="left_wheel_front">
+        <material>
+            Gazebo/Black
+        </material>
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+    </gazebo>
+    <gazebo reference="right_wheel_front">
+        <material>
+            Gazebo/Black
+        </material>
+        <mu1>0.2</mu1>
+        <mu2>0.2</mu2>
+    </gazebo>
+
+    <!-- <gazebo reference="caster_wheel">
         <material>
             Gazebo/Black
         </material>
         <mu1>0.02</mu1>
         <mu2>0.02</mu2>
-    </gazebo>
+    </gazebo> -->
 
     <!--CAMERA_PLUGIN-->
     <gazebo reference="camera_link">

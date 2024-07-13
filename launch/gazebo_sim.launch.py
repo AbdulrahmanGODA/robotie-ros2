@@ -41,7 +41,7 @@ def generate_launch_description():
     ld.add_action(rsp_include)
     ld.add_action(gazebo_include)
     ld.add_action(spawn_entity)
-    #ld.add_action(launch_rviz2)
+    ld.add_action(launch_rviz2)
     ld.add_action(diff_drive_spawner)
     ld.add_action(joint_broad_spawner)
 
